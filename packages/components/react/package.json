@@ -1,0 +1,21 @@
+{
+  "name": "@vigor-ui-prototype/react",
+  "version": "0.1.0",
+  "description": "Vigor React UI components kit built with React & CSS Modules",
+  "author": "",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo test"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.35",
+    "react": "^18.2.0"
+  },
+  "dependencies": {
+    "@vigor-ui-prototype/button": "workspace:^"
+  }
+}
