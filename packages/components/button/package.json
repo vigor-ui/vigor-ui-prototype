@@ -5,8 +5,12 @@
   "author": "",
   "license": "ISC",
   "main": "src/index.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo test"
+    "build": "tsup src --dts",
+    "clean": "rimraf dist .turbo"
   },
   "peerDependencies": {
     "react": ">=18"
